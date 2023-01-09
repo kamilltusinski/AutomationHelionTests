@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "module": "ESNext",
+        "types": [
+            "node",
+            "@wdio/globals/types",
+            "expect-webdriverio",
+            "@wdio/mocha-framework"
+        ],
+        "allowJs": true,
+        "target": "ES6"
+    },
+    "include": [
+        "./test/specs/**/*.ts",
+        "./wdio.conf.ts",
+        "./test/pages/**/*.ts",
+        "./test/pages/*.ts",
+        "./test/config/pagesUrl.ts"    
+    ]
+}
