@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Automation tests for Helion website",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "e2e": "wdio wdio.conf.ts --suite e2e",
     "debug": "wdio wdio.conf.ts --suite debug"
